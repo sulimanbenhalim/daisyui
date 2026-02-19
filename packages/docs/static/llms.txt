@@ -1363,6 +1363,37 @@ Progress bar can be used to show the progress of a task or to show the passing o
 - {MODIFIER} is optional and can have one of the color class names
 - You must specify value and max attributes
 
+### prompt
+Prompt is an AI chat input box with auto-growing textarea and action buttons. Pure CSS, zero JS
+
+[prompt docs](https://daisyui.com/components/prompt/)
+
+#### Class names
+- component: `prompt`
+- part: `prompt-input`, `prompt-actions`, `prompt-send`
+- style: `prompt-ghost`
+- color: `prompt-neutral`, `prompt-primary`, `prompt-secondary`, `prompt-accent`, `prompt-info`, `prompt-success`, `prompt-warning`, `prompt-error`
+- size: `prompt-sm`, `prompt-md`, `prompt-lg`
+
+#### Syntax
+```html
+<div class="prompt {MODIFIER}">
+  <textarea class="prompt-input" placeholder="Ask anything..."></textarea>
+  <div class="prompt-actions">
+    <button class="btn btn-sm btn-circle btn-primary prompt-send">Send</button>
+  </div>
+</div>
+```
+
+#### Rules
+- {MODIFIER} is optional and can have one of each style/color/size class names
+- `prompt-input` must be a `<textarea>` with a `placeholder` attribute for send button activation to work
+- `prompt-send` button automatically dims (opacity 0.3) when textarea is empty and activates when content exists
+- Container focus glow delegates from the textarea focus via CSS `:focus-within`
+- Textarea auto-grows with `field-sizing: content` (Chrome 123+, Edge 123+, Safari 18+, graceful fallback on Firefox)
+- `prompt-actions` can contain any buttons, kbd hints, or other elements
+- Use `justify-between` on `prompt-actions` to push items to left and right sides
+
 ### radial-progress
 Radial progress can be used to show the progress of a task or to show the passing of time
 

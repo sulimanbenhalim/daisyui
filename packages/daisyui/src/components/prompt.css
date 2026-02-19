@@ -1,0 +1,223 @@
+.prompt {
+  @layer daisyui.l1.l2.l3 {
+    border: var(--border) solid #0000;
+    @apply bg-base-100 relative flex flex-col;
+    border-radius: var(--radius-box);
+    border-color: var(--input-color);
+    --input-color: color-mix(in oklab, var(--color-base-content) 20%, #0000);
+    box-shadow:
+      0 1px color-mix(in oklab, var(--input-color) calc(var(--depth) * 10%), #0000) inset,
+      0 -1px oklch(100% 0 0 / calc(var(--depth) * 0.1)) inset;
+
+    &:focus,
+    &:focus-within {
+      --input-color: var(--color-base-content);
+      box-shadow: 0 1px color-mix(in oklab, var(--input-color) calc(var(--depth) * 10%), #0000);
+      outline: 2px solid var(--input-color);
+      outline-offset: 2px;
+      isolation: isolate;
+    }
+
+    /* increase font size in iOS so the page won't zoom */
+    @media (pointer: coarse) {
+      @supports (-webkit-touch-callout: none) {
+        &:focus,
+        &:focus-within {
+          --font-size: 1rem;
+        }
+      }
+    }
+
+    /* Send button activation: visible only when textarea has content */
+    &:has(.prompt-input:not(:placeholder-shown)) {
+      .prompt-send {
+        opacity: 1;
+        pointer-events: auto;
+      }
+    }
+
+    &:has(> .prompt-input:disabled),
+    &:is(:disabled, [disabled]),
+    fieldset:disabled & {
+      @apply border-base-200 bg-base-200 placeholder-base-content text-base-content/40 placeholder-base-content/20 cursor-not-allowed;
+      box-shadow: none;
+    }
+
+    &:has(> .prompt-input:disabled) > .prompt-input:disabled {
+      @apply cursor-not-allowed;
+    }
+  }
+}
+
+.prompt-input {
+  @layer daisyui.l1.l2.l3 {
+    @apply bg-transparent w-full resize-none appearance-none;
+    border: none;
+    padding: 0.75rem 1rem 0;
+    font-size: max(var(--font-size, 0.875rem), 0.875rem);
+    field-sizing: content;
+    min-height: calc(1lh * 2 + 0.75rem);
+    max-height: calc(1lh * 12 + 0.75rem);
+    overflow-y: auto;
+
+    &:focus,
+    &:focus-within {
+      @apply outline-hidden;
+    }
+  }
+}
+
+.prompt-actions {
+  @layer daisyui.l1.l2.l3 {
+    @apply flex items-center gap-1 p-2;
+    justify-content: flex-end;
+  }
+}
+
+.prompt-send {
+  @layer daisyui.l1.l2.l3 {
+    opacity: 0.3;
+    pointer-events: none;
+    transition: opacity 0.2s;
+  }
+}
+
+.prompt-ghost {
+  @layer daisyui.l1.l2 {
+    @apply bg-transparent;
+    box-shadow: none;
+    border-color: #0000;
+
+    &:focus,
+    &:focus-within {
+      @apply text-base-content bg-base-100;
+      border-color: #0000;
+      box-shadow: none;
+    }
+  }
+}
+
+.prompt-neutral {
+  @layer daisyui.l1.l2 {
+    &,
+    &:focus,
+    &:focus-within {
+      --input-color: var(--color-neutral);
+    }
+  }
+}
+
+.prompt-primary {
+  @layer daisyui.l1.l2 {
+    &,
+    &:focus,
+    &:focus-within {
+      --input-color: var(--color-primary);
+    }
+  }
+}
+
+.prompt-secondary {
+  @layer daisyui.l1.l2 {
+    &,
+    &:focus,
+    &:focus-within {
+      --input-color: var(--color-secondary);
+    }
+  }
+}
+
+.prompt-accent {
+  @layer daisyui.l1.l2 {
+    &,
+    &:focus,
+    &:focus-within {
+      --input-color: var(--color-accent);
+    }
+  }
+}
+
+.prompt-info {
+  @layer daisyui.l1.l2 {
+    &,
+    &:focus,
+    &:focus-within {
+      --input-color: var(--color-info);
+    }
+  }
+}
+
+.prompt-success {
+  @layer daisyui.l1.l2 {
+    &,
+    &:focus,
+    &:focus-within {
+      --input-color: var(--color-success);
+    }
+  }
+}
+
+.prompt-warning {
+  @layer daisyui.l1.l2 {
+    &,
+    &:focus,
+    &:focus-within {
+      --input-color: var(--color-warning);
+    }
+  }
+}
+
+.prompt-error {
+  @layer daisyui.l1.l2 {
+    &,
+    &:focus,
+    &:focus-within {
+      --input-color: var(--color-error);
+    }
+  }
+}
+
+.prompt-sm {
+  @layer daisyui.l1.l2 {
+    .prompt-input {
+      font-size: max(var(--font-size, 0.75rem), 0.75rem);
+      padding: 0.5rem 0.75rem 0;
+      min-height: calc(1lh * 2 + 0.5rem);
+      max-height: calc(1lh * 8 + 0.5rem);
+    }
+
+    .prompt-actions {
+      @apply gap-0.5 p-1.5;
+    }
+  }
+}
+
+.prompt-md {
+  @layer daisyui.l1.l2 {
+    .prompt-input {
+      font-size: max(var(--font-size, 0.875rem), 0.875rem);
+      padding: 0.75rem 1rem 0;
+      min-height: calc(1lh * 2 + 0.75rem);
+      max-height: calc(1lh * 12 + 0.75rem);
+    }
+
+    .prompt-actions {
+      @apply gap-1 p-2;
+    }
+  }
+}
+
+.prompt-lg {
+  @layer daisyui.l1.l2 {
+    .prompt-input {
+      font-size: max(var(--font-size, 1.125rem), 1.125rem);
+      padding: 1rem 1.25rem 0;
+      min-height: calc(1lh * 2 + 1rem);
+      max-height: calc(1lh * 16 + 1rem);
+    }
+
+    .prompt-actions {
+      @apply gap-1.5 p-2.5;
+    }
+  }
+}

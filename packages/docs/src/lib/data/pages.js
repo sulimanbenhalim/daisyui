@@ -301,6 +301,11 @@ export const pages = [
             href: "/components/label/",
           },
           {
+            name: "Prompt",
+            href: "/components/prompt/",
+            badge: "new",
+          },
+          {
             name: "Radio",
             href: "/components/radio/",
           },

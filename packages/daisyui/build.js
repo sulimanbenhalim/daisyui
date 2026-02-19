@@ -102,6 +102,7 @@ async function generateFiles() {
           "filter",
           "mask",
           "mockup",
+          "prompt",
           "skeleton",
           "swap",
           "validator",
