@@ -290,6 +290,11 @@ export const pages = [
             href: "/components/label/",
           },
           {
+            name: "OTP Input",
+            href: "/components/otp-input/",
+            badge: "new",
+          },
+          {
             name: "Radio",
             href: "/components/radio/",
           },

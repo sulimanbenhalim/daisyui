@@ -1,0 +1,208 @@
+.otp-input {
+  @layer daisyui.l1.l2.l3 {
+    --_w: 1ch;
+    --_g: 0px;
+    --_b: var(--border);
+    --input-color: color-mix(in oklab, var(--color-base-content) 20%, #0000);
+
+    box-sizing: content-box;
+    direction: ltr;
+    border: var(--_b) solid var(--input-color);
+    @apply bg-base-100 inline-block appearance-none;
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    font-size: max(var(--font-size, 1.25rem), 1.25rem);
+    line-height: 2.4;
+    letter-spacing: calc(var(--_w) + var(--_g));
+    width: calc(var(--digits) * (1ch + var(--_w) + var(--_g)));
+    padding-inline-start: calc(var(--_w) / 2);
+    padding-inline-end: 0;
+    clip-path: inset(0 calc((var(--_w) + var(--_g)) / 2) 0 0);
+    touch-action: manipulation;
+    border-start-start-radius: var(--join-ss, var(--radius-field));
+    border-start-end-radius: var(--join-se, var(--radius-field));
+    border-end-start-radius: var(--join-es, var(--radius-field));
+    border-end-end-radius: var(--join-ee, var(--radius-field));
+    box-shadow:
+      0 1px color-mix(in oklab, var(--input-color) calc(var(--depth) * 10%), #0000) inset,
+      0 -1px oklch(100% 0 0 / calc(var(--depth) * 0.1)) inset;
+
+    /* Internal vertical separators only — real CSS border handles the outer border */
+    background-image: repeating-linear-gradient(90deg,
+      var(--input-color) 0 var(--_b),
+      #0000 var(--_b) calc(1ch + var(--_w) + var(--_g))
+    );
+    background-size: calc(var(--digits) * (1ch + var(--_w) + var(--_g))) 100%;
+    background-position: calc(1ch + var(--_w) + var(--_g) / 2 - var(--_b) / 2) 0;
+    background-repeat: no-repeat;
+
+    &:focus,
+    &:focus-within {
+      --input-color: var(--color-base-content);
+      box-shadow: 0 1px color-mix(in oklab, var(--input-color) calc(var(--depth) * 10%), #0000);
+      outline: none;
+      isolation: isolate;
+    }
+
+    /* iOS zoom prevention */
+    @media (pointer: coarse) {
+      @supports (-webkit-touch-callout: none) {
+        &:focus,
+        &:focus-within {
+          --font-size: 1rem;
+        }
+      }
+    }
+
+    &:is(:disabled, [disabled]),
+    fieldset:disabled & {
+      @apply border-base-200 bg-base-200 placeholder-base-content text-base-content/40 placeholder-base-content/20 cursor-not-allowed;
+      box-shadow: none;
+      background-image: none;
+    }
+  }
+}
+
+/* Ghost variant */
+.otp-input-ghost {
+  @layer daisyui.l1.l2 {
+    @apply bg-transparent;
+    border-color: transparent;
+    box-shadow: none;
+    background-image: none;
+
+    &:focus,
+    &:focus-within {
+      @apply text-base-content bg-base-100;
+      border-color: var(--input-color);
+      background-image: repeating-linear-gradient(90deg,
+        var(--input-color) 0 var(--_b),
+        #0000 var(--_b) calc(1ch + var(--_w) + var(--_g))
+      );
+      background-size: calc(var(--digits) * (1ch + var(--_w) + var(--_g))) 100%;
+      background-position: calc(1ch + var(--_w) + var(--_g) / 2 - var(--_b) / 2) 0;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+/* Separated variant */
+.otp-input-separated {
+  @layer daisyui.l1.l2 {
+    --_g: 0.5ch;
+    width: calc(var(--digits) * (1ch + var(--_w) + var(--_g)));
+    clip-path: inset(0 calc((var(--_w) + var(--_g)) / 2) 0 0);
+    border-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    background-image:
+      /* Top borders */
+      repeating-linear-gradient(90deg,
+        var(--input-color) 0 calc(1ch + var(--_w)),
+        #0000 0 calc(1ch + var(--_w) + var(--_g))
+      ),
+      /* Bottom borders */
+      repeating-linear-gradient(90deg,
+        var(--input-color) 0 calc(1ch + var(--_w)),
+        #0000 0 calc(1ch + var(--_w) + var(--_g))
+      ),
+      /* Left + Right borders */
+      repeating-linear-gradient(90deg,
+        var(--input-color) 0 var(--_b),
+        #0000 var(--_b) calc(1ch + var(--_w) - var(--_b)),
+        var(--input-color) calc(1ch + var(--_w) - var(--_b)) calc(1ch + var(--_w)),
+        #0000 calc(1ch + var(--_w)) calc(1ch + var(--_w) + var(--_g))
+      );
+    --_total: calc(var(--digits) * (1ch + var(--_w) + var(--_g)) - var(--_g));
+    background-size:
+      var(--_total) var(--_b),
+      var(--_total) var(--_b),
+      var(--_total) 100%;
+    background-position:
+      0 0,
+      0 100%,
+      0 0;
+    background-repeat: no-repeat;
+  }
+}
+
+/* Color variants */
+.otp-input-neutral {
+  @layer daisyui.l1.l2 {
+    &, &:focus, &:focus-within { --input-color: var(--color-neutral); }
+  }
+}
+.otp-input-primary {
+  @layer daisyui.l1.l2 {
+    &, &:focus, &:focus-within { --input-color: var(--color-primary); }
+  }
+}
+.otp-input-secondary {
+  @layer daisyui.l1.l2 {
+    &, &:focus, &:focus-within { --input-color: var(--color-secondary); }
+  }
+}
+.otp-input-accent {
+  @layer daisyui.l1.l2 {
+    &, &:focus, &:focus-within { --input-color: var(--color-accent); }
+  }
+}
+.otp-input-info {
+  @layer daisyui.l1.l2 {
+    &, &:focus, &:focus-within { --input-color: var(--color-info); }
+  }
+}
+.otp-input-success {
+  @layer daisyui.l1.l2 {
+    &, &:focus, &:focus-within { --input-color: var(--color-success); }
+  }
+}
+.otp-input-warning {
+  @layer daisyui.l1.l2 {
+    &, &:focus, &:focus-within { --input-color: var(--color-warning); }
+  }
+}
+.otp-input-error {
+  @layer daisyui.l1.l2 {
+    &, &:focus, &:focus-within { --input-color: var(--color-error); }
+  }
+}
+
+/* Size variants */
+.otp-input-xs {
+  @layer daisyui.l1.l2 {
+    font-size: max(var(--font-size, 0.875rem), 0.875rem);
+    line-height: 2;
+  }
+}
+.otp-input-sm {
+  @layer daisyui.l1.l2 {
+    font-size: max(var(--font-size, 1rem), 1rem);
+    line-height: 2.2;
+  }
+}
+.otp-input-md {
+  @layer daisyui.l1.l2 {
+    font-size: max(var(--font-size, 1.25rem), 1.25rem);
+    line-height: 2.4;
+  }
+}
+.otp-input-lg {
+  @layer daisyui.l1.l2 {
+    font-size: max(var(--font-size, 1.5rem), 1.5rem);
+    line-height: 2.4;
+  }
+}
+.otp-input-xl {
+  @layer daisyui.l1.l2 {
+    font-size: max(var(--font-size, 1.75rem), 1.75rem);
+    line-height: 2.4;
+  }
+}
+
+/* Digit count variants */
+.otp-input-4 { @layer daisyui.l1.l2 { --digits: 4; } }
+.otp-input-5 { @layer daisyui.l1.l2 { --digits: 5; } }
+.otp-input-6 { @layer daisyui.l1.l2 { --digits: 6; } }
+.otp-input-7 { @layer daisyui.l1.l2 { --digits: 7; } }
+.otp-input-8 { @layer daisyui.l1.l2 { --digits: 8; } }

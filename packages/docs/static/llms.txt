@@ -1273,6 +1273,31 @@ Using anchor links (legacy)
 - Use unique IDs for each modal
 - For HTML dialog element modals, add `<form method="dialog">` for closing the modal with submit
 
+### otp-input
+OTP Input is a single input element styled to look like separate digit boxes using pure CSS. No JavaScript required. Uses letter-spacing and repeating-linear-gradient to create the visual illusion of separate boxes.
+
+[otp-input docs](https://daisyui.com/components/otp-input/)
+
+#### Class Names:
+- Component: `otp-input`
+- Style: `otp-input-ghost`, `otp-input-separated`
+- Color: `otp-input-neutral`, `otp-input-primary`, `otp-input-secondary`, `otp-input-accent`, `otp-input-info`, `otp-input-success`, `otp-input-warning`, `otp-input-error`
+- Size: `otp-input-xs`, `otp-input-sm`, `otp-input-md`, `otp-input-lg`, `otp-input-xl`
+- Digits: `otp-input-4`, `otp-input-5`, `otp-input-6`, `otp-input-7`, `otp-input-8`
+
+#### Syntax
+```html
+<input class="otp-input otp-input-6 {MODIFIER}" type="text" maxlength="6" inputmode="numeric" autocomplete="one-time-code" pattern="\d{6}" placeholder="······" />
+```
+
+#### Rules
+- {MODIFIER} is optional and can have one of each style/color/size class names
+- The digit count class (e.g. `otp-input-6`) must match the `maxlength` attribute
+- Use `inputmode="numeric"` to bring up the number pad on mobile
+- Use `autocomplete="one-time-code"` to trigger SMS autofill on mobile
+- For alphanumeric codes (invite codes), change `pattern` to `[A-Z0-9]{6}` and remove `inputmode="numeric"`
+- Placeholder should use middle dot character (·) repeated to match digit count
+
 ### navbar
 Navbar is used to show a navigation bar on the top of the page
 
