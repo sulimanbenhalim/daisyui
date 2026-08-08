@@ -7,10 +7,46 @@
     <loc>https://daisyui.com/</loc>
   </url>
   <url>
+    <loc>https://daisyui.com/ai/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/ai/design-website/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/ai/frontend-code-generation/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/ai/generate-ui-from-text/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/ai/generate-ui-with-llm/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/ai/llm-ui-generation/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/ai/prompt-to-ui/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/ai/ui-code-generation/</loc>
+  </url>
+  <url>
     <loc>https://daisyui.com/angular-component-library/</loc>
   </url>
   <url>
+    <loc>https://daisyui.com/angular-tailwind-css/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/angular-ui-library/</loc>
+  </url>
+  <url>
     <loc>https://daisyui.com/astro-component-library/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/astro-tailwind-css/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/astro-ui-library/</loc>
   </url>
   <url>
     <loc>https://daisyui.com/blog/</loc>
@@ -20,6 +56,9 @@
   </url>
   <url>
     <loc>https://daisyui.com/blog/bidirectional/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/blog/blueprint-1.5/</loc>
   </url>
   <url>
     <loc>https://daisyui.com/blog/code-ownership-and-maintainability-cost/</loc>
@@ -52,6 +91,9 @@
     <loc>https://daisyui.com/blog/daisyui-nextjs-online-store-template/</loc>
   </url>
   <url>
+    <loc>https://daisyui.com/blog/daisyui-skill/</loc>
+  </url>
+  <url>
     <loc>https://daisyui.com/blog/daisyui-vs-tailwindui/</loc>
   </url>
   <url>
@@ -62,6 +104,9 @@
   </url>
   <url>
     <loc>https://daisyui.com/blog/full-circle/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/blog/generate-ui-with-less-token/</loc>
   </url>
   <url>
     <loc>https://daisyui.com/blog/how-to-add-new-colors-to-daisyui/</loc>
@@ -82,6 +127,9 @@
     <loc>https://daisyui.com/blog/install-daisyui-and-tailwindcss-in-nextjs/</loc>
   </url>
   <url>
+    <loc>https://daisyui.com/blog/make-unique-ui-with-agents/</loc>
+  </url>
+  <url>
     <loc>https://daisyui.com/blog/mary-ui/</loc>
   </url>
   <url>
@@ -97,13 +145,169 @@
     <loc>https://daisyui.com/blog/npm-init-daisyui/</loc>
   </url>
   <url>
+    <loc>https://daisyui.com/blog/v5.6/</loc>
+  </url>
+  <url>
     <loc>https://daisyui.com/blog/what-is-daisyui/</loc>
   </url>
   <url>
     <loc>https://daisyui.com/blueprint/</loc>
   </url>
   <url>
+    <loc>https://daisyui.com/blueprint/antigravity/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/blueprint/changelog/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/blueprint/claude/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/blueprint/claudecode/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/blueprint/cline/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/blueprint/codex/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/blueprint/cursor/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/blueprint/figma/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/blueprint/grok/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/blueprint/openclaw/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/blueprint/opencode/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/blueprint/vscode/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/blueprint/windsurf/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/blueprint/workflow/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/blueprint/zed/</loc>
+  </url>
+  <url>
     <loc>https://daisyui.com/brand/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/claude/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/claude-code/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/claude-code/best-design-skill-2026/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/claude-code/best-free-component-library/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/claude-code/free-design-skill/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/claude-code/frontend-design-plugin/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/claude-code/frontend-skill/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/claude-code/how-to-design-ui/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/claude-code/ui-design-mcp-server/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/claude-code/ui-design-plugin/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/claude-code/ui-design-skill/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/claude-code/ui-design-skill-guide/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/claude-code/use-less-tokens/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/claude-code/web-design-skill/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/claude/generate-ui/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/claude/ui-design-prompt/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/codex/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/codex/best-design-skill-2026/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/codex/best-free-component-library/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/codex/free-design-skill/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/codex/generate-ui/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/codex/how-to-design-ui/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/codex/ui-design-mcp-server/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/codex/ui-design-plugin/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/codex/ui-design-skill/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/codex/use-less-tokens/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/component-library/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/component-library/best-for-2026/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/component-library/css-library-for-html/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/component-library/easy/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/component-library/easy-css-library/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/component-library/for-beginners/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/component-library/for-hackathons/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/component-library/for-school-projects/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/component-library/minimal-css-framework/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/component-library/scalable/</loc>
   </url>
   <url>
     <loc>https://daisyui.com/components/</loc>
@@ -113,6 +317,9 @@
   </url>
   <url>
     <loc>https://daisyui.com/components/alert/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/components/aura/</loc>
   </url>
   <url>
     <loc>https://daisyui.com/components/avatar/</loc>
@@ -214,6 +421,9 @@
     <loc>https://daisyui.com/components/mask/</loc>
   </url>
   <url>
+    <loc>https://daisyui.com/components/megamenu/</loc>
+  </url>
+  <url>
     <loc>https://daisyui.com/components/menu/</loc>
   </url>
   <url>
@@ -233,6 +443,9 @@
   </url>
   <url>
     <loc>https://daisyui.com/components/navbar/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/components/otp/</loc>
   </url>
   <url>
     <loc>https://daisyui.com/components/pagination/</loc>
@@ -304,7 +517,49 @@
     <loc>https://daisyui.com/components/validator/</loc>
   </url>
   <url>
+    <loc>https://daisyui.com/cursor/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/cursor/best-design-skill-2026/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/cursor/best-free-component-library/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/cursor/free-design-skill/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/cursor/frontend-skill/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/cursor/how-to-design-ui/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/cursor/reduce-token-usage/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/cursor/ui-design-mcp-server/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/cursor/ui-design-plugin/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/cursor/ui-design-skill/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/cursor/ui-design-skill-guide/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/cursor/use-less-tokens/</loc>
+  </url>
+  <url>
     <loc>https://daisyui.com/django-component-library/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/django-tailwind-css/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/django-ui-library/</loc>
   </url>
   <url>
     <loc>https://daisyui.com/docs/base/</loc>
@@ -478,7 +733,67 @@
     <loc>https://daisyui.com/docs/layout-and-typography/</loc>
   </url>
   <url>
+    <loc>https://daisyui.com/docs/mcp/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/mcp/antigravity/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/mcp/claude/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/mcp/claudecode/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/mcp/cline/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/mcp/codex/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/mcp/cursor/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/mcp/grok/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/mcp/openclaw/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/mcp/opencode/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/mcp/vscode/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/mcp/windsurf/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/mcp/zed/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/plugin/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/plugin/claude-code/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/plugin/codex/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/plugin/cursor/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/plugin/grok/</loc>
+  </url>
+  <url>
     <loc>https://daisyui.com/docs/roadmap/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/skill/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/skill/grok/</loc>
   </url>
   <url>
     <loc>https://daisyui.com/docs/themes/</loc>
@@ -499,70 +814,82 @@
     <loc>https://daisyui.com/electron-component-library/</loc>
   </url>
   <url>
+    <loc>https://daisyui.com/electron-tailwind-css/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/electron-ui-library/</loc>
+  </url>
+  <url>
     <loc>https://daisyui.com/htmx-component-library/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/htmx-tailwind-css/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/htmx-ui-library/</loc>
   </url>
   <url>
     <loc>https://daisyui.com/laravel-component-library/</loc>
   </url>
   <url>
+    <loc>https://daisyui.com/laravel-tailwind-css/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/laravel-ui-library/</loc>
+  </url>
+  <url>
     <loc>https://daisyui.com/lit-component-library/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/lit-tailwind-css/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/lit-ui-library/</loc>
   </url>
   <url>
     <loc>https://daisyui.com/nextjs-component-library/</loc>
   </url>
   <url>
+    <loc>https://daisyui.com/nextjs-tailwind-css/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/nextjs-ui-library/</loc>
+  </url>
+  <url>
     <loc>https://daisyui.com/nuxt-component-library/</loc>
   </url>
   <url>
-    <loc>https://daisyui.com/pages/best-component-library-for-2026/</loc>
+    <loc>https://daisyui.com/nuxt-tailwind-css/</loc>
   </url>
   <url>
-    <loc>https://daisyui.com/pages/best-component-library-for-beginners/</loc>
-  </url>
-  <url>
-    <loc>https://daisyui.com/pages/css-framework-for-school-project/</loc>
-  </url>
-  <url>
-    <loc>https://daisyui.com/pages/css-library-for-html/</loc>
-  </url>
-  <url>
-    <loc>https://daisyui.com/pages/easy-component-library/</loc>
-  </url>
-  <url>
-    <loc>https://daisyui.com/pages/easy-css-library/</loc>
-  </url>
-  <url>
-    <loc>https://daisyui.com/pages/install-tailwind-css-vite/</loc>
-  </url>
-  <url>
-    <loc>https://daisyui.com/pages/minimal-css-framework/</loc>
-  </url>
-  <url>
-    <loc>https://daisyui.com/pages/scalable-component-library/</loc>
-  </url>
-  <url>
-    <loc>https://daisyui.com/pages/tailwind-css/</loc>
-  </url>
-  <url>
-    <loc>https://daisyui.com/pages/tailwind-css-alternative/</loc>
-  </url>
-  <url>
-    <loc>https://daisyui.com/pages/tailwind-css-without-node/</loc>
-  </url>
-  <url>
-    <loc>https://daisyui.com/pages/ui-library-for-hackaton/</loc>
-  </url>
-  <url>
-    <loc>https://daisyui.com/pages/what-is-tailwind-css-used-for/</loc>
+    <loc>https://daisyui.com/nuxt-ui-library/</loc>
   </url>
   <url>
     <loc>https://daisyui.com/qwik-component-library/</loc>
   </url>
   <url>
+    <loc>https://daisyui.com/qwik-tailwind-css/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/qwik-ui-library/</loc>
+  </url>
+  <url>
     <loc>https://daisyui.com/rails-component-library/</loc>
   </url>
   <url>
+    <loc>https://daisyui.com/rails-tailwind-css/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/rails-ui-library/</loc>
+  </url>
+  <url>
     <loc>https://daisyui.com/react-component-library/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/react-tailwind-css/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/react-ui-library/</loc>
   </url>
   <url>
     <loc>https://daisyui.com/resources/articles/</loc>
@@ -574,13 +901,61 @@
     <loc>https://daisyui.com/resources/videos/</loc>
   </url>
   <url>
+    <loc>https://daisyui.com/skills/</loc>
+  </url>
+  <url>
     <loc>https://daisyui.com/solid-component-library/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/solid-tailwind-css/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/solid-ui-library/</loc>
   </url>
   <url>
     <loc>https://daisyui.com/store/</loc>
   </url>
   <url>
+    <loc>https://daisyui.com/store/pages/privacy/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/store/pages/support/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/store/pages/terms/</loc>
+  </url>
+  <url>
     <loc>https://daisyui.com/svelte-component-library/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/svelte-tailwind-css/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/svelte-ui-library/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/tailwind-css/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/tailwind-css/agent/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/tailwind-css/ai-code-generator/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/tailwind-css/alternative/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/tailwind-css/install-with-vite/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/tailwind-css/ui-components/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/tailwind-css/what-is-it-used-for/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/tailwind-css/without-node/</loc>
   </url>
   <url>
     <loc>https://daisyui.com/theme-generator/</loc>
@@ -589,22 +964,34 @@
     <loc>https://daisyui.com/unocss-component-library/</loc>
   </url>
   <url>
+    <loc>https://daisyui.com/unocss-tailwind-css/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/unocss-ui-library/</loc>
+  </url>
+  <url>
     <loc>https://daisyui.com/vue-component-library/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/vue-tailwind-css/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/vue-ui-library/</loc>
   </url>
   <url>
     <loc>https://daisyui.com/store/nexus/</loc>
   </url>
   <url>
-    <loc>https://daisyui.com/store/scalo/</loc>
-  </url>
-  <url>
     <loc>https://daisyui.com/store/daisyui-figma-library/</loc>
   </url>
   <url>
-    <loc>https://daisyui.com/store/html-dashboard/</loc>
+    <loc>https://daisyui.com/store/scalo/</loc>
   </url>
   <url>
-    <loc>https://daisyui.com/store/blink/</loc>
+    <loc>https://daisyui.com/store/daisyui-charts/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/store/html-dashboard/</loc>
   </url>
   <url>
     <loc>https://daisyui.com/store/online-store/</loc>
@@ -613,10 +1000,13 @@
     <loc>https://daisyui.com/store/saas-landingpage/</loc>
   </url>
   <url>
+    <loc>https://daisyui.com/store/documentation-template/</loc>
+  </url>
+  <url>
     <loc>https://daisyui.com/store/blog-template/</loc>
   </url>
   <url>
-    <loc>https://daisyui.com/store/documentation-template/</loc>
+    <loc>https://daisyui.com/store/blink/</loc>
   </url>
   <url>
     <loc>https://daisyui.com/store/auth-template/</loc>
@@ -1028,6 +1418,42 @@
   </url>
   <url>
     <loc>https://daisyui.com/alternative/flux/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/skill/copilot/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/skill/claude-code/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/skill/codex/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/skill/cursor/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/skill/opencode/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/skill/openclaw/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/skill/windsurf/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/skill/gemini-cli/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/docs/skill/antigravity/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/skills/daisyui/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/skills/daisyui-dashboard/</loc>
+  </url>
+  <url>
+    <loc>https://daisyui.com/skills/daisyui-charts/</loc>
   </url>
 <url>
   <loc>https://daisyui.com/llms.txt</loc>
