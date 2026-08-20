@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 5.7.20 (2026-08-20)
+
+### Bug Fixes
+
+* alert grid ([#4684](https://github.com/saadeghi/daisyui/issues/4684)) ([3b99c0c](https://github.com/saadeghi/daisyui/commit/3b99c0cedf64c4c3a5c6c2bba1684533c1fa0934))
+* don't force dock layout onto script/style/template children ([#4679](https://github.com/saadeghi/daisyui/issues/4679)) ([b5a1209](https://github.com/saadeghi/daisyui/commit/b5a1209ca53b7eecd8d8c42b2c8077877eefa5bf))
 ## [5.7.19](https://github.com/saadeghi/daisyui/compare/v5.7.18...v5.7.19) (2026-08-19)
 
 ### Bug Fixes
