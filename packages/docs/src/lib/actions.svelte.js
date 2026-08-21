@@ -25,6 +25,27 @@ const replaceStrings = (content, replacements) => {
   return content.replace(re, (matched) => replacements[matched.toLowerCase()])
 }
 
+// SVG presentation attributes are ALSO css property names, so renaming them by plain text
+// substitution corrupts css inside a style attribute or an embedded <style> element. Match the
+// highlighted attribute-name span instead, so only real attributes are renamed.
+const svgAttrsToReplace = {
+  "clip-rule": "clipRule",
+  "fill-opacity": "fillOpacity",
+  "fill-rule": "fillRule",
+  "stroke-dasharray": "strokeDasharray",
+  "stroke-dashoffset": "strokeDashoffset",
+  "stroke-linecap": "strokeLinecap",
+  "stroke-linejoin": "strokeLinejoin",
+  "stroke-miterlimit": "strokeMiterlimit",
+  "stroke-opacity": "strokeOpacity",
+  "stroke-width": "strokeWidth",
+}
+
+const svgAttrSpan = new RegExp(
+  `(<span style="color:var\\(--syntax-attr-name\\)">\\s*)(${Object.keys(svgAttrsToReplace).join("|")})(</span>)`,
+  "gi",
+)
+
 export const prefixClassNames = (node) => {
   const originalContent = node.innerHTML ?? ""
   let prefixValue
@@ -96,16 +117,6 @@ export const htmlToJsx = (node) => {
     '<span style="color:var(--syntax-punctuation)">"</span><span style="color:var(--syntax-attr-value)">-1</span><span style="color:var(--syntax-punctuation)">"</span>':
       '<span style="color:var(--syntax-punctuation)">{</span><span style="color:var(--syntax-attr-value)">-1</span><span style="color:var(--syntax-punctuation)">}</span>',
     tabindex: "tabIndex",
-    "clip-rule": "clipRule",
-    "fill-opacity": "fillOpacity",
-    "fill-rule": "fillRule",
-    "stroke-dasharray": "strokeDasharray",
-    "stroke-dashoffset": "strokeDashoffset",
-    "stroke-linecap": "strokeLinecap",
-    "stroke-linejoin": "strokeLinejoin",
-    "stroke-miterlimit": "strokeMiterlimit",
-    "stroke-opacity": "strokeOpacity",
-    "stroke-width": "strokeWidth",
     autocomplete: "autoComplete",
     inputmode: "inputMode",
     // keep before popovertarget, which is a prefix of it and would match first
@@ -115,6 +126,10 @@ export const htmlToJsx = (node) => {
 
   const update = () => {
     node.innerHTML = replaceStrings(originalContent, stringsToReplace)
+      .replace(
+        svgAttrSpan,
+        (_m, before, name, after) => before + svgAttrsToReplace[name.toLowerCase()] + after,
+      )
       .replace(barePopoverSpan, `$1${popoverValue}`)
       // fix the broken tabIndex={0} in JSX tab
       .replaceAll(
