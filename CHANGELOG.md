@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 5.7.24 (2026-08-31)
+
+### Bug Fixes
+
+* FAB selector style leack for `fab-flower` actions ([#4683](https://github.com/saadeghi/daisyui/issues/4683)) ([e4e6419](https://github.com/saadeghi/daisyui/commit/e4e6419978f5609697575d22a7c4fb9ecf4ebd3a))
+* floating label position on RTL ([#4701](https://github.com/saadeghi/daisyui/issues/4701)) ([66274aa](https://github.com/saadeghi/daisyui/commit/66274aa83c6e4189ed95a6860e59a9b85c23536e))
+* menu-paged summary hides children (badge, icon, etc) when details is open ([#4710](https://github.com/saadeghi/daisyui/issues/4710)) ([4929505](https://github.com/saadeghi/daisyui/commit/492950573b4c23a84e7cb6309a87e6e084d98250))
 ## [5.7.23](https://github.com/saadeghi/daisyui/compare/v5.7.22...v5.7.23) (2026-08-31)
 
 ### Bug Fixes
