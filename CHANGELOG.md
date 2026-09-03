@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 5.7.28 (2026-09-03)
+
+### Bug Fixes
+
+* checkbox - add style for aria-checked="mixed" like :indeterminate ([#4713](https://github.com/saadeghi/daisyui/issues/4713)) ([5e5b8b4](https://github.com/saadeghi/daisyui/commit/5e5b8b40a5b11031f15900069acb175de01f0fdc))
+* FAB selector style leack for `fab-flower` actions ([#4683](https://github.com/saadeghi/daisyui/issues/4683)) ([e4e6419](https://github.com/saadeghi/daisyui/commit/e4e6419978f5609697575d22a7c4fb9ecf4ebd3a))
+* floating label position on RTL ([#4701](https://github.com/saadeghi/daisyui/issues/4701)) ([66274aa](https://github.com/saadeghi/daisyui/commit/66274aa83c6e4189ed95a6860e59a9b85c23536e))
+* improve skeleton animation for RTL ([#4712](https://github.com/saadeghi/daisyui/issues/4712)) ([16a2857](https://github.com/saadeghi/daisyui/commit/16a2857f3f9a7a7ad73aa631c95c6f3db39638e6))
+* join item border overlap when there's a wrapper ([#4719](https://github.com/saadeghi/daisyui/issues/4719)) ([96fd80a](https://github.com/saadeghi/daisyui/commit/96fd80afc8d614a9755999f35b2dd9f27abfae5d))
+* menu-paged summary hides children (badge, icon, etc) when details is open ([#4710](https://github.com/saadeghi/daisyui/issues/4710)) ([4929505](https://github.com/saadeghi/daisyui/commit/492950573b4c23a84e7cb6309a87e6e084d98250))
+* tooltip font weight ([03217ba](https://github.com/saadeghi/daisyui/commit/03217bae0919bc458c2606533172b62bf4889b33))
 ## [5.7.27](https://github.com/saadeghi/daisyui/compare/v5.7.26...v5.7.27) (2026-09-01)
 
 ### Bug Fixes
