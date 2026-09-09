@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 5.7.33 (2026-09-09)
+
+### Bug Fixes
+
+* breadcrumbs item focus ring being cropped ([#4724](https://github.com/saadeghi/daisyui/issues/4724)) ([cc339e7](https://github.com/saadeghi/daisyui/commit/cc339e74d6de53c7bab8e225ffbb6390fee24e87))
+* checkbox - add style for aria-checked="mixed" like :indeterminate ([#4713](https://github.com/saadeghi/daisyui/issues/4713)) ([5e5b8b4](https://github.com/saadeghi/daisyui/commit/5e5b8b40a5b11031f15900069acb175de01f0fdc))
+* dropdown RTL positions ([#4716](https://github.com/saadeghi/daisyui/issues/4716)) ([c0fec1b](https://github.com/saadeghi/daisyui/commit/c0fec1ba80be63e587e80fde19dcd898fa422e60))
+* FAB selector style leack for `fab-flower` actions ([#4683](https://github.com/saadeghi/daisyui/issues/4683)) ([e4e6419](https://github.com/saadeghi/daisyui/commit/e4e6419978f5609697575d22a7c4fb9ecf4ebd3a))
+* floating label position on RTL ([#4701](https://github.com/saadeghi/daisyui/issues/4701)) ([66274aa](https://github.com/saadeghi/daisyui/commit/66274aa83c6e4189ed95a6860e59a9b85c23536e))
+* improve skeleton animation for RTL ([#4712](https://github.com/saadeghi/daisyui/issues/4712)) ([16a2857](https://github.com/saadeghi/daisyui/commit/16a2857f3f9a7a7ad73aa631c95c6f3db39638e6))
+* join item border overlap when there's a wrapper ([#4719](https://github.com/saadeghi/daisyui/issues/4719)) ([96fd80a](https://github.com/saadeghi/daisyui/commit/96fd80afc8d614a9755999f35b2dd9f27abfae5d))
+* keep toast-center horizontally centered in RTL ([#4700](https://github.com/saadeghi/daisyui/issues/4700)) ([e5ca64e](https://github.com/saadeghi/daisyui/commit/e5ca64e7d35c080e67eda442f5c3591e66ad7049))
+* list style leaking to nested lists ([ad55d08](https://github.com/saadeghi/daisyui/commit/ad55d0878bc063fd9052370844637849ff77c225))
+* menu-paged summary hides children (badge, icon, etc) when details is open ([#4710](https://github.com/saadeghi/daisyui/issues/4710)) ([4929505](https://github.com/saadeghi/daisyui/commit/492950573b4c23a84e7cb6309a87e6e084d98250))
+* OTP monospace font-family variable receiving unwanted prefix when prefix option is used. ([c1452df](https://github.com/saadeghi/daisyui/commit/c1452df073f4f15fe4de08a44a93098f64d57473))
+* tooltip font weight ([03217ba](https://github.com/saadeghi/daisyui/commit/03217bae0919bc458c2606533172b62bf4889b33))
 ## [5.7.32](https://github.com/saadeghi/daisyui/compare/v5.7.31...v5.7.32) (2026-09-08)
 
 ### Bug Fixes
