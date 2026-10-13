@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 5.7.49 (2026-10-13)
+
+### Bug Fixes
+
+* adjust tooltip tail position for themes with more radius ([#4759](https://github.com/saadeghi/daisyui/issues/4759)) ([cc43e58](https://github.com/saadeghi/daisyui/commit/cc43e587bccfb5248ab14aa1a951f71dfcf6d1bc))
+* btn-link with btn-disabled color ([#4749](https://github.com/saadeghi/daisyui/issues/4749)) ([2719450](https://github.com/saadeghi/daisyui/commit/2719450179f2083fe45f5ea9516fe6930ab69951))
+* show the indeterminate checkbox mark in forced colors mode like the checked one ([#4804](https://github.com/saadeghi/daisyui/issues/4804)) ([4f8de95](https://github.com/saadeghi/daisyui/commit/4f8de95c84f28b0fe5b793f2482f2f3949971198))
+
 ## [5.7.48](https://github.com/saadeghi/daisyui/compare/v5.7.47...v5.7.48) (2026-10-12)
 
 ### Bug Fixes
